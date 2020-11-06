@@ -1,0 +1,206 @@
+body{
+    margin:0;
+}
+
+h1{
+    MARGIN:0;
+}
+
+header div hr{
+    width:75%;
+    border: 1px solid white;
+}
+.backGround {
+    height:30em;
+    background-image: url("../imagenes/slider-22.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+
+ul{
+    margin:0px;
+}
+nav ul li{
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    padding:50px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+}
+
+
+header div h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10rem;
+    color: white;
+}
+
+header div p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    margin: 10px;
+}
+
+.bgBody{
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#wrapper{
+    width: 64em;
+    display: grid;	
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    padding: 4em 0 6em 0;
+}
+
+#intro {
+    padding: 4em 4em 2em 4em;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#intro h2 {
+    font-family: 'Lato', sans-serif;
+    color:rgb(48, 47, 47);
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color:rgb(48, 47, 47);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.button {
+    background-color:white;
+    border: 1px solid black;
+    color:rgb(48, 47, 47);
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+  }
+
+  .button:hover{
+    background-color:rgb(219, 219, 219);
+    border: 1px solid black;
+    color:rgb(48, 47, 47);
+  }
+
+  .grid{
+    display: grid;
+    margin-top: 3em;
+    width: 64em;
+    grid-template-columns: 48% 48%;
+    gap:4%;
+    grid-template-rows: 500px 500px;
+  }
+
+  .grid > div{
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+
+  }
+
+
+.cardImg {
+    height:45%;
+    width:100%;
+    overflow:hidden;
+    border: 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+
+.centered{
+    position:absolute;
+}
+
+div.cardImg{
+    border-radius: 4px 4px 0px 0px;
+}
+ 
+.centered h3{
+    font-size:1.5em;
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+
+.cardImg img { 
+    width:100%;
+   }
+
+
+.btntest{
+    padding: 8px 22px;
+}
+
+.pCard{
+    margin: 50px 20px 35px 20px;
+}
+
+.footerDiv{
+    height: 6em;
+    width:100%;
+    background-color:black;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+footer > hr{
+    position:absolute;
+    width:10%;
+    border: 1px solid grey;
+    margin-top:20px;
+
+}
+
+footer > div{ 
+    margin-top:30px;
+    font-size:20px;
+    position:absolute;
+}
+
+footer div svg{
+margin:0 5px 0 5px;
+color:grey;
+}
+
+.textFooter{
+    font-size: 15px;
+    color: grey;
+    margin-top:25px;
+}
+
+.bady{
+    height:50em;
+}
