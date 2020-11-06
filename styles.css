@@ -12,7 +12,7 @@ header div hr{
 }
 .backGround {
     height:30em;
-    background-image: url("/imagenes/slider-22.png");
+    background-image: url("./imagenes/slider-22.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
